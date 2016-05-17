@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F49F1ADE1CEBB16800AC1814 /* PreciseTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49F1AE71CEBB19900AC1814 /* PreciseTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49F1AE81CEBB19900AC1814 /* PreciseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F1AE61CEBB19900AC1814 /* PreciseTime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F49F1ADA1CEBB16800AC1814 /* PreciseTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PreciseTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreciseTime.h; sourceTree = "<group>"; };
 		F49F1ADF1CEBB16800AC1814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PreciseTime-umbrella.h"; sourceTree = "<group>"; };
+		F49F1AE61CEBB19900AC1814 /* PreciseTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreciseTime.m; sourceTree = "<group>"; wrapsLines = 0; };
+		F49F1AE91CEBB1ED00AC1814 /* PreciseTime.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = PreciseTime.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +51,11 @@
 		F49F1ADC1CEBB16800AC1814 /* PreciseTime */ = {
 			isa = PBXGroup;
 			children = (
+				F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */,
 				F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */,
+				F49F1AE61CEBB19900AC1814 /* PreciseTime.m */,
 				F49F1ADF1CEBB16800AC1814 /* Info.plist */,
+				F49F1AE91CEBB1ED00AC1814 /* PreciseTime.modulemap */,
 			);
 			path = PreciseTime;
 			sourceTree = "<group>";
@@ -60,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F49F1ADE1CEBB16800AC1814 /* PreciseTime.h in Headers */,
+				F49F1AE71CEBB19900AC1814 /* PreciseTime-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49F1AE81CEBB19900AC1814 /* PreciseTime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +247,7 @@
 				INFOPLIST_FILE = PreciseTime/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "${PROJECT_DIR}/PreciseTime/PreciseTime.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = stephanecopin.PreciseTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -253,6 +264,7 @@
 				INFOPLIST_FILE = PreciseTime/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "${PROJECT_DIR}/PreciseTime/PreciseTime.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = stephanecopin.PreciseTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

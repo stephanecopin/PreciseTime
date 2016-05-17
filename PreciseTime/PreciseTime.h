@@ -2,18 +2,43 @@
 //  PreciseTime.h
 //  PreciseTime
 //
-//  Created by Stéphane Copin on 5/17/16.
+//  Created by Stéphane Copin on 5/13/16.
 //  Copyright © 2016 Stéphane Copin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-//! Project version number for PreciseTime.
-FOUNDATION_EXPORT double PreciseTimeVersionNumber;
+NS_ASSUME_NONNULL_BEGIN
 
-//! Project version string for PreciseTime.
-FOUNDATION_EXPORT const unsigned char PreciseTimeVersionString[];
+typedef uint64_t PreciseTimeInterval; // Describe a time interval in nanoseconds
 
-// In this header, you should import all the public headers of your framework using statements like #import <PreciseTime/PublicHeader.h>
+@interface PreciseTime : NSObject <NSCopying, NSSecureCoding>
 
+@property (nonatomic, assign, readonly) PreciseTimeInterval preciseTimeIntervalSinceNow;
+@property (nonatomic, assign, readonly) NSTimeInterval timeIntervalSinceNow;
 
+- (instancetype)init;
+- (instancetype)initWithPreciseTime:(PreciseTime *)preciseTime;
+- (instancetype)initWithPreciseTimeInterval:(PreciseTimeInterval)preciseTimeInterval sincePreciseTime:(PreciseTime *)preciseTime;
+
++ (instancetype)preciseTime;
++ (instancetype)preciseTimeWithPreciseTime:(PreciseTime *)preciseTime;
++ (instancetype)preciseTimeWithPreciseTimeInterval:(PreciseTimeInterval)preciseTimeInterval sincePreciseTime:(PreciseTime *)preciseTime;
+
+- (PreciseTimeInterval)preciseTimeIntervalSincePreciseTime:(PreciseTime *)preciseTime;
+
+- (NSTimeInterval)timeIntervalSincePreciseTime:(PreciseTime *)preciseTime;
+
+- (PreciseTime *)preciseTimeByAddingPreciseTimeInterval:(PreciseTimeInterval)preciseTimeInterval;
+- (PreciseTime *)preciseTimeByAddingTimeInterval:(NSTimeInterval)timeInterval;
+
++ (NSTimeInterval)preciseTimeIntervalToTimeInterval:(PreciseTimeInterval)preciseTimeInterval;
++ (PreciseTimeInterval)timeIntervalToPreciseTimeInterval:(NSTimeInterval)preciseTimeInterval;
+
+- (BOOL)isEqualToPreciseTime:(PreciseTime *)preciseTime;
+
+- (NSComparisonResult)compare:(PreciseTime *)preciseTime;
+
+@end
+
+NS_ASSUME_NONNULL_END
