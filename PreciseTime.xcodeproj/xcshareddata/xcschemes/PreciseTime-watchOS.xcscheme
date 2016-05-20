@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F49F1AD91CEBB16800AC1814"
+               BlueprintIdentifier = "F4C0F65A1CEEE3DE00A8ADB0"
                BuildableName = "PreciseTime.framework"
-               BlueprintName = "PreciseTime"
+               BlueprintName = "PreciseTime-watchOS"
                ReferencedContainer = "container:PreciseTime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F49F1AD91CEBB16800AC1814"
+            BlueprintIdentifier = "F4C0F65A1CEEE3DE00A8ADB0"
             BuildableName = "PreciseTime.framework"
-            BlueprintName = "PreciseTime"
+            BlueprintName = "PreciseTime-watchOS"
             ReferencedContainer = "container:PreciseTime.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F49F1AD91CEBB16800AC1814"
+            BlueprintIdentifier = "F4C0F65A1CEEE3DE00A8ADB0"
             BuildableName = "PreciseTime.framework"
-            BlueprintName = "PreciseTime"
+            BlueprintName = "PreciseTime-watchOS"
             ReferencedContainer = "container:PreciseTime.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

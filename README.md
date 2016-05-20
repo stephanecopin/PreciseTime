@@ -5,6 +5,10 @@ For convenience, `PreciseTime` has an interface very similar to `NSDate`, allowi
 
 `PreciseTime` is completely documented via xcode documentation comment.
 
+# Compatibility
+
+Compatible with iOS 8.0, OSX 10.9, tvOS and watchOS.
+
 # Installation
 
 You can either add `PreciseTime` to your project (By manually copying the relevant files) or manage it via Carthage. To add it via Carthage, follow the instructions in the [Carthage repository readme](https://github.com/Carthage/Carthage).
