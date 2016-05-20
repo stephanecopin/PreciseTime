@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef uint64_t PreciseTimeInterval; // Describe a time interval in nanoseconds
 
+NS_REFINED_FOR_SWIFT
 @interface PreciseTime : NSObject <NSCopying, NSSecureCoding>
 
 @property (nonatomic, assign, readonly) PreciseTimeInterval preciseTimeIntervalSinceNow;

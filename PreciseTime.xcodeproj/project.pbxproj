@@ -10,6 +10,7 @@
 		F49F1ADE1CEBB16800AC1814 /* PreciseTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F49F1AE71CEBB19900AC1814 /* PreciseTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F49F1AE81CEBB19900AC1814 /* PreciseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F1AE61CEBB19900AC1814 /* PreciseTime.m */; };
+		F4C0F6321CEED1C900A8ADB0 /* PreciseTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0F6311CEED1C900A8ADB0 /* PreciseTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PreciseTime-umbrella.h"; sourceTree = "<group>"; };
 		F49F1AE61CEBB19900AC1814 /* PreciseTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreciseTime.m; sourceTree = "<group>"; wrapsLines = 0; };
 		F49F1AE91CEBB1ED00AC1814 /* PreciseTime.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = PreciseTime.modulemap; sourceTree = "<group>"; };
+		F4C0F6311CEED1C900A8ADB0 /* PreciseTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreciseTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */,
 				F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */,
 				F49F1AE61CEBB19900AC1814 /* PreciseTime.m */,
+				F4C0F6311CEED1C900A8ADB0 /* PreciseTime.swift */,
 				F49F1ADF1CEBB16800AC1814 /* Info.plist */,
 				F49F1AE91CEBB1ED00AC1814 /* PreciseTime.modulemap */,
 			);
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C0F6321CEED1C900A8ADB0 /* PreciseTime.swift in Sources */,
 				F49F1AE81CEBB19900AC1814 /* PreciseTime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +244,7 @@
 		F49F1AE31CEBB16800AC1814 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -251,12 +256,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = stephanecopin.PreciseTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F49F1AE41CEBB16800AC1814 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -290,6 +297,7 @@
 				F49F1AE41CEBB16800AC1814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
