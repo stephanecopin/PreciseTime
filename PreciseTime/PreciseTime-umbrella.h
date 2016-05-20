@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double PreciseTimeVersionNumber;
 FOUNDATION_EXPORT const unsigned char PreciseTimeVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PreciseTime/PublicHeader.h>
-
-#import "PreciseTime.h"

@@ -7,34 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F49F1ADE1CEBB16800AC1814 /* PreciseTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F49F1AE71CEBB19900AC1814 /* PreciseTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F49F1AE81CEBB19900AC1814 /* PreciseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F1AE61CEBB19900AC1814 /* PreciseTime.m */; };
 		F4C0F6321CEED1C900A8ADB0 /* PreciseTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0F6311CEED1C900A8ADB0 /* PreciseTime.swift */; };
-		F4C0F64E1CEEE33900A8ADB0 /* PreciseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F1AE61CEBB19900AC1814 /* PreciseTime.m */; };
 		F4C0F64F1CEEE33900A8ADB0 /* PreciseTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0F6311CEED1C900A8ADB0 /* PreciseTime.swift */; };
-		F4C0F6501CEEE33D00A8ADB0 /* PreciseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F1AE61CEBB19900AC1814 /* PreciseTime.m */; };
 		F4C0F6511CEEE33D00A8ADB0 /* PreciseTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0F6311CEED1C900A8ADB0 /* PreciseTime.swift */; };
 		F4C0F6521CEEE34600A8ADB0 /* PreciseTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C0F6531CEEE34600A8ADB0 /* PreciseTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4C0F6541CEEE34F00A8ADB0 /* PreciseTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C0F6551CEEE34F00A8ADB0 /* PreciseTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C0F6631CEEE40500A8ADB0 /* PreciseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F1AE61CEBB19900AC1814 /* PreciseTime.m */; };
 		F4C0F6641CEEE40500A8ADB0 /* PreciseTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0F6311CEED1C900A8ADB0 /* PreciseTime.swift */; };
 		F4C0F6651CEEE41200A8ADB0 /* PreciseTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C0F6661CEEE41200A8ADB0 /* PreciseTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F49F1ADA1CEBB16800AC1814 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreciseTime.h; sourceTree = "<group>"; };
+		F49F1ADA1CEBB16800AC1814 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = .framework; path = PreciseTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49F1ADF1CEBB16800AC1814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PreciseTime-umbrella.h"; sourceTree = "<group>"; };
-		F49F1AE61CEBB19900AC1814 /* PreciseTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreciseTime.m; sourceTree = "<group>"; wrapsLines = 0; };
 		F49F1AE91CEBB1ED00AC1814 /* PreciseTime.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = PreciseTime.modulemap; sourceTree = "<group>"; };
 		F4C0F6311CEED1C900A8ADB0 /* PreciseTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreciseTime.swift; sourceTree = "<group>"; };
-		F4C0F6391CEEE2B000A8ADB0 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4C0F6461CEEE2D700A8ADB0 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C0F6391CEEE2B000A8ADB0 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = .framework; path = PreciseTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C0F6461CEEE2D700A8ADB0 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = .framework; path = PreciseTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C0F65B1CEEE3DE00A8ADB0 /* PreciseTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PreciseTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,8 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				F49F1AE51CEBB19900AC1814 /* PreciseTime-umbrella.h */,
-				F49F1ADD1CEBB16800AC1814 /* PreciseTime.h */,
-				F49F1AE61CEBB19900AC1814 /* PreciseTime.m */,
 				F4C0F6311CEED1C900A8ADB0 /* PreciseTime.swift */,
 				F49F1ADF1CEBB16800AC1814 /* Info.plist */,
 				F49F1AE91CEBB1ED00AC1814 /* PreciseTime.modulemap */,
@@ -109,7 +97,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49F1ADE1CEBB16800AC1814 /* PreciseTime.h in Headers */,
 				F49F1AE71CEBB19900AC1814 /* PreciseTime-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,7 +106,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C0F6521CEEE34600A8ADB0 /* PreciseTime-umbrella.h in Headers */,
-				F4C0F6531CEEE34600A8ADB0 /* PreciseTime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +114,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C0F6541CEEE34F00A8ADB0 /* PreciseTime-umbrella.h in Headers */,
-				F4C0F6551CEEE34F00A8ADB0 /* PreciseTime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C0F6651CEEE41200A8ADB0 /* PreciseTime-umbrella.h in Headers */,
-				F4C0F6661CEEE41200A8ADB0 /* PreciseTime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C0F6321CEED1C900A8ADB0 /* PreciseTime.swift in Sources */,
-				F49F1AE81CEBB19900AC1814 /* PreciseTime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C0F64E1CEEE33900A8ADB0 /* PreciseTime.m in Sources */,
 				F4C0F64F1CEEE33900A8ADB0 /* PreciseTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C0F6501CEEE33D00A8ADB0 /* PreciseTime.m in Sources */,
 				F4C0F6511CEEE33D00A8ADB0 /* PreciseTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C0F6631CEEE40500A8ADB0 /* PreciseTime.m in Sources */,
 				F4C0F6641CEEE40500A8ADB0 /* PreciseTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,6 +582,7 @@
 				F4C0F6401CEEE2B000A8ADB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4C0F64B1CEEE2D700A8ADB0 /* Build configuration list for PBXNativeTarget "PreciseTime-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +591,7 @@
 				F4C0F64D1CEEE2D700A8ADB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4C0F6601CEEE3DE00A8ADB0 /* Build configuration list for PBXNativeTarget "PreciseTime-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +600,7 @@
 				F4C0F6621CEEE3DE00A8ADB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
