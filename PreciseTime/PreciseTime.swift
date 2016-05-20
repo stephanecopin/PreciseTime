@@ -8,6 +8,12 @@
 
 import Foundation
 
+/**
+  * Swift struct representing a precise time.
+    In Swift, the Objective-C PreciseTime class is imported as `__PreciseTime`
+    and is convertible to and from this struct
+  * Please refer to the Objective-C class for the documentation.
+*/
 public struct PreciseTime {
 	private let __preciseTime: __PreciseTime
 
